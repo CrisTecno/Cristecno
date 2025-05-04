@@ -1,50 +1,101 @@
-h1 {
+html {
+    font-size: 1rem;
+}
 
-    color: blueviolet !important;
-    background-color: darkcyan;
-    font-size: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+body {
+    
+    background-image: none
+
+}
+
+main {
+background-color: transparent;
+   
+}
+
+header {
+    background-color: black
+}
+
+div {
+    background-color: transparent
+}
+
+.recuadro {
+
+    width: 100%;
+    height: 50px;
+    background-color: #bababa;
+
+}
+
+ul {
+    list-style: none ;
+    font-weight: bold;
+}
+
+li a {
+    text-decoration: none;
+    color: azure;
+}
+
+nav {
+    font-family: "Oswald", sans-serif;
+    color:azure;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+  
+  a {
+    padding: 26px;
+    font-size: 18px;
+    
+  }
+
+  h1 {
+    font-family: "Trade Winds", system-ui;
+    font-size: 2.5em;
+    width: 100%;
+    font-style: italic;
+    color: rgb(14, 129, 243);
+    margin-left: 30%;
 }
 
 h2 {
 
     color: #18a547;;
     font-size: 26px;
-    font-family:'Times New Roman', Times, serif
+    font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
-h6 {
-    color: #6f3fbd;
-    font-size: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-p {
+#h3 {
+   
+        font-family: "Work Sans", sans-serif;
+        font-size: 22px;
+        font-style: normal;
+        color: black;
+      }
+
+
+.pcolor {
     font-size: 20px;
     color: brown;
 
 }
 
 #pcolor {
-    color: rgb(20, 123, 220);
-}
+    font-size: 18px;
+    color: rgb(88, 194, 255); 
 
-header {
-    background-color: blanchedalmond;
-}
-
-footer {
-    background-color: beige;
-
-}
-
-* {
-    margin: 2;
-    padding: 2;
-    box-sizing: border-box;
-}
-
-.highlight {
-    background-color: green;
 }
 
 #h11 {
@@ -52,4 +103,39 @@ footer {
     background-color: blanchedalmond;
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+.matias {
+    color: #ff8800; ;
+    font-size: 25px;
+}
+
+
+footer {
+    background-color: black;
+    color: rgb(88, 194, 255);  
+}
+
+.fa-instagram {
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(88, 194, 255); 
+    
+}
+
+.fa-facebook {
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(88, 194, 255); 
+}
+
+.fa-whatsapp {
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(88, 194, 255); 
+}
+
+.fa-credit-card {
+    font-size: 40px;
+    color:azure;
  }
