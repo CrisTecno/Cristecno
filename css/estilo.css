@@ -1,5 +1,6 @@
 html {
     font-size: 1rem;
+    margin: 0px;
 }
 
 body {
@@ -14,100 +15,172 @@ background-color: transparent;
 }
 
 header {
-    background-color: black
+
+    z-index: 5;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+    
+}
+
+.imglogo {
+    display: flex;
+    position: relative;
+    left:  1rem;
 }
 
 div {
+   
     background-color: transparent
 }
 
 .recuadro {
-
+    position: flex;
     width: 100%;
     height: 50px;
     background-color: #bababa;
 
 }
 
-ul {
-    list-style: none ;
-    font-weight: bold;
-}
-
-li a {
-    text-decoration: none;
-    color: azure;
-}
 
 nav {
+    
     font-family: "Oswald", sans-serif;
     color:azure;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
 
-  li {
-    display: inline;
-  }
-  
-  a {
-    padding: 26px;
-    font-size: 18px;
-    
-  }
-
-  h1 {
+.parte2 {
+    display: flex;
     font-family: "Trade Winds", system-ui;
     font-size: 2.5em;
     width: 100%;
     font-style: italic;
     color: rgb(14, 129, 243);
-    margin-left: 30%;
+    position: relative;
+    right: 12rem;
+    
+   }
+
+
+ul {
+    
+    list-style-type: none ;
+    font-weight: bold;
+    
+
+}
+
+li {
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    right: 10px;
+    
+   
+  }
+
+a {
+    padding: 20px;
+    font-size: 18px;
+    color: azure;
+    text-decoration: none;
+
+}
+#panelcentrado {
+    align-items: stretch;
+    margin: auto;
+    text-align: center;
+    background-color: #312857CC;
+    background-blend-mode: lighten;
+    width: 100%;
+    border: 0;
+    box-sizing: border-box;
+    
+}
+
+#panelcentrado2 {
+    position: flex;
+    margin: auto;
+    text-align: center;
+    background-color: #312857CC;
+    background-blend-mode: lighten;
+    font-family: 2.3rem;
+    width: 100%;
+    height: 3rem;
+    box-sizing: border-box;
+    
+}
+
+
+  .h1 {
+    display: flex;
+    font-family: "Trade Winds", system-ui;
+    font-size: 2.5rem;
+    width: 100%;
+    font-style: italic;
+    color: rgb(14, 129, 243);
+    position: relative;
+    left: 10rem;   
+   
 }
 
 h2 {
-
+   
+    flex-wrap: wrap;
     color: #18a547;;
-    font-size: 26px;
-    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    font-family: "Work Sans", sans-serif;
     text-decoration: underline;
+    
 }
 
 #h3 {
-   
-        font-family: "Work Sans", sans-serif;
-        font-size: 22px;
-        font-style: normal;
-        color: black;
-      }
-
-
-.pcolor {
-    font-size: 20px;
-    color: brown;
-
+    position: flex;
+    align-items: stretch;
+    right: 2rem;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    color: black;
 }
 
-#pcolor {
-    font-size: 18px;
-    color: rgb(88, 194, 255); 
-
+#h4 {
+    position: flex;   
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    color: #fd0202; 
+    left: 24rem; 
+    width: 100%;
+      
 }
 
 #h11 {
     color: rgb(150, 35, 6) !important;
     background-color: blanchedalmond;
-    font-size: 20px;
+    font-size: 1.1rem;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
- }
+}
+
+.pcolor {
+    font-size: 1.3rem;
+    color: brown;
+
+}
+
+#pcolor {
+    font-size: 1.2rem;
+    color: rgb(88, 194, 255); 
+    margin: auto;
+    text-align: center;
+
+}
 
 .matias {
     color: #ff8800; ;
-    font-size: 25px;
+    font-size: 1.5rem;
 }
 
 
@@ -117,25 +190,128 @@ footer {
 }
 
 .fa-instagram {
+    display: flex;
     padding: 10px;
-    font-size: 30px;
+    font-size: 1.6rem;
     color: rgb(88, 194, 255); 
     
 }
 
 .fa-facebook {
+    display: flex;
     padding: 10px;
-    font-size: 30px;
-    color: rgb(88, 194, 255); 
+    font-size: 1.6rem;
+    color: rgb(88, 194, 255);
+    
 }
 
 .fa-whatsapp {
+    display: flex;
     padding: 10px;
-    font-size: 30px;
+    font-size: 1.6rem;
     color: rgb(88, 194, 255); 
+    
 }
 
 .fa-credit-card {
-    font-size: 40px;
-    color:azure;
+    display: flex;
+    position: relative;
+    align-items: stretch;
+    padding: 0.6rem;
+    font-size: 1.6rem;
+    color: brown;
+     
+}
+
+ .imglogo {
+    display: flex;
+    position: relative;
+    left:  1rem;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+
+ .contenedor2 {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid greenyellow;
+    height: 200px;
+    box-sizing: border-box;
  }
+
+ .contenedor3 {
+    display: flex;
+    align-items: stretch;
+    height: 100px;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+ }
+
+ .contenedor4 {
+  
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: #bababa;
+    box-sizing: border-box;
+ }
+
+  .contenedor5 {
+    display: flex;
+    align-items: stretch;
+    height: auto;
+    border: 5px solid black;
+    box-sizing: border-box;
+ }
+
+ .contenedor6 {
+    display: flex;
+    align-items: stretch;
+    height: 25px;
+    border: none;
+    box-sizing: border-box;
+ }
+ 
+  .contenedor7 {
+    display: flex;
+    height: 4rem;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+ }
+
+ .item3 {
+    display: flex;
+    border: 3px solid red;
+    align-items: stretch;
+    height: 125px;
+    width: 100%;
+    background-color: transparent;
+ }
+
+ .item4 {
+
+    display: flex;
+    border: none;
+    align-items: stretch;
+    position: relative;
+    padding: 0.1em;
+    height: 110px;
+    width: 100%;
+    background-color: transparent;
+    left: 1.3rem;
+}
+
+ 
+  
+ 
+ 
+ 
