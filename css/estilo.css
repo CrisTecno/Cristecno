@@ -45,7 +45,7 @@ div {
 
 
 nav {
-    
+
     font-family: "Oswald", sans-serif;
     color:azure;
 }
@@ -76,13 +76,13 @@ li {
     display: inline;
     text-decoration: none;
     position: relative;
-    right: 10px;
+    
     
    
   }
 
 a {
-    padding: 20px;
+    padding: 40px;
     font-size: 18px;
     color: azure;
     text-decoration: none;
@@ -233,8 +233,7 @@ footer {
     display: flex;
     justify-content: center;
     flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
+    align-items:center;
     
 }
 
