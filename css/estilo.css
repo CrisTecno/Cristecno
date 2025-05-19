@@ -1,16 +1,13 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
+@media only screen and (max-width: 600px)
 
 body {
+    
     padding: 0;
     margin: 0;
     background-image: none
 }
 
-header {
+ header {
     display: flex;
     margin-left: 6vw;
     width: 87vw;
@@ -41,7 +38,7 @@ header {
     width: 100%;
       
 }
-/* Sección del logo */
+
 .logo {
     display: flex;
     
@@ -52,7 +49,7 @@ header {
     position: relative;
     left:  1rem;
 }
-/* Sección del titulo */
+
   .h1 {
     display: flex;
     font-family: "Trade Winds", system-ui;
@@ -76,7 +73,7 @@ header {
     right: 3rem;
     
    }
-/* Sección de la barra de navegacion*/
+
 nav{
     display: flex;
     flex-direction: row;
@@ -115,7 +112,6 @@ li {
     margin-left: 6vw;
     height: 6vw;
     background-color: #bababa;
-    box-sizing: border-box;
  }
 
   .item4 {
