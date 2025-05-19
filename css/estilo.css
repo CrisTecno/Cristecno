@@ -1,26 +1,49 @@
-html {
-    font-size: 1rem;
-    margin: 0px;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 body {
-    
+    padding: 0;
+    margin: 0;
     background-image: none
-
-}
-
-main {
-background-color: transparent;
-   
 }
 
 header {
-
+    display: flex;
+    margin-left: 6vw;
+    width: 87vw;
+    height: 8vw;
+    flex-direction: column;
     z-index: 5;
     background-color: black;
     position: sticky;
-    top: 0px;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+
+}
+
+  .contenedor7 {
+    display: flex;
+    height: 4rem;
     width: 100%;
+    border: none;
+ }
+
+
+#h4 {
+    display: flex;  
+    justify-content: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 1.1rem;
+    font-style: normal;
+    color: #fd0202; 
+    width: 100%;
+      
+}
+/* Sección del logo */
+.logo {
+    display: flex;
     
 }
 
@@ -29,139 +52,106 @@ header {
     position: relative;
     left:  1rem;
 }
-
-div {
-   
-    background-color: transparent
-}
-
-.recuadro {
-    position: flex;
-    width: 100%;
-    height: 50px;
-    background-color: #bababa;
-
-}
-
-
-nav {
-
-    font-family: "Oswald", sans-serif;
-    color:azure;
-}
-
-
-.parte2 {
+/* Sección del titulo */
+  .h1 {
     display: flex;
     font-family: "Trade Winds", system-ui;
-    font-size: 2.5em;
+    font-size: 22px;
     width: 100%;
     font-style: italic;
     color: rgb(14, 129, 243);
     position: relative;
-    right: 12rem;
+    left: 40px;   
+   
+}
+
+.parte2 {
+    display: flex;
+    font-family: "Trade Winds", system-ui;
+    font-size: 22px;
+    width: 100%;
+    font-style: italic;
+    color: rgb(14, 129, 243);
+    position: relative;
+    right: 3rem;
     
    }
-
-
-ul {
+/* Sección de la barra de navegacion*/
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    width: 87vw;
+    margin-left: 6vw;
+    height: 7vw;
+    z-index: 5;
+    position: sticky;
+    top: 0px;
+    box-shadow: 0px 3px 10px rgb(0, 0, 0);
+    justify-content: center;
     
-    list-style-type: none ;
-    font-weight: bold;
-    
+}
 
+nav a {
+    font-family: "Oswald", sans-serif;
+    color:azure;   
+    padding: 10px;
+    font-size: 17px;
+    color: azure;
+    text-decoration: none
+   
 }
 
 li {
     display: inline;
     text-decoration: none;
-    position: relative;
-    
-    
-   
   }
 
-a {
-    padding: 40px;
-    font-size: 18px;
-    color: azure;
-    text-decoration: none;
-
-}
-#panelcentrado {
-    align-items: stretch;
-    margin: auto;
-    text-align: center;
-    background-color: #312857CC;
-    background-blend-mode: lighten;
-    width: 100%;
-    border: 0;
-    box-sizing: border-box;
-    
-}
-
-#panelcentrado2 {
-    position: flex;
-    margin: auto;
-    text-align: center;
-    background-color: #312857CC;
-    background-blend-mode: lighten;
-    font-family: 2.3rem;
-    width: 100%;
-    height: 3rem;
-    box-sizing: border-box;
-    
-}
-
-
-  .h1 {
+  .contenedor4 {
+  
     display: flex;
-    font-family: "Trade Winds", system-ui;
-    font-size: 2.5rem;
-    width: 100%;
-    font-style: italic;
-    color: rgb(14, 129, 243);
-    position: relative;
-    left: 10rem;   
-   
-}
+    padding: 2px;
+    width: 87vw;
+    margin-left: 6vw;
+    height: 6vw;
+    background-color: #bababa;
+    box-sizing: border-box;
+ }
 
-h2 {
-   
-    flex-wrap: wrap;
-    color: #18a547;;
-    font-size: 2rem;
-    font-family: "Work Sans", sans-serif;
-    text-decoration: underline;
-    
+  .item4 {
+    position: relative;
+    height: 110px;
+    width: 100%;
+    left: 16px;
 }
 
 #h3 {
-    position: flex;
     align-items: stretch;
     right: 2rem;
     font-family: "Work Sans", sans-serif;
-    font-size: 1.2rem;
+    font-size: 16px;
     font-style: normal;
     color: black;
 }
 
-#h4 {
-    position: flex;   
-    font-family: "Work Sans", sans-serif;
-    font-size: 1.1rem;
-    font-style: normal;
-    color: #fd0202; 
-    left: 24rem; 
-    width: 100%;
-      
+#panelcentrado {
+    display: flex;
+    background-color: rgb(199, 211, 32);
+    justify-content: center;
+    width: 87vw;
+    margin-left: 6vw;
+    height: 6vw;
+    font-family: 32px;
+
 }
 
-#h11 {
-    color: rgb(150, 35, 6) !important;
-    background-color: blanchedalmond;
-    font-size: 1.1rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+h2 {
+
+    color: #18a547;;
+    font-size: 19px;
+    font-family: "Work Sans", sans-serif;
+    text-decoration: underline;
+    
 }
 
 .pcolor {
@@ -178,16 +168,43 @@ h2 {
 
 }
 
+footer {
+    background-color: black;
+    color: rgb(88, 194, 255); 
+    display: flex;
+    margin-left: 6vw;
+    width: 87vw;  
+}
+
+#panelcentrado2 {
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    width: 87vw;
+    margin-left: 6vw;
+    height: 6vw;
+    font-family: 32px;
+
+}
+
+#h11 {
+    color: rgb(150, 35, 6) !important;
+    background-color: blanchedalmond;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
 .matias {
     color: #ff8800; ;
     font-size: 1.5rem;
 }
 
 
-footer {
-    background-color: black;
-    color: rgb(88, 194, 255);  
-}
+
 
 .fa-instagram {
     display: flex;
@@ -223,11 +240,7 @@ footer {
      
 }
 
- .imglogo {
-    display: flex;
-    position: relative;
-    left:  1rem;
-}
+ 
 
 .contenedor {
     display: flex;
@@ -245,23 +258,6 @@ footer {
     box-sizing: border-box;
  }
 
- .contenedor3 {
-    display: flex;
-    align-items: stretch;
-    height: 100px;
-    width: 100%;
-    border: none;
-    box-sizing: border-box;
- }
-
- .contenedor4 {
-  
-    display: flex;
-    width: 100%;
-    height: 50px;
-    background-color: #bababa;
-    box-sizing: border-box;
- }
 
   .contenedor5 {
     display: flex;
@@ -279,38 +275,25 @@ footer {
     box-sizing: border-box;
  }
  
-  .contenedor7 {
-    display: flex;
-    height: 4rem;
-    width: 100%;
-    border: none;
-    box-sizing: border-box;
- }
 
- .item3 {
-    display: flex;
-    border: 3px solid red;
-    align-items: stretch;
-    height: 125px;
-    width: 100%;
-    background-color: transparent;
- }
 
- .item4 {
-
-    display: flex;
-    border: none;
-    align-items: stretch;
-    position: relative;
-    padding: 0.1em;
-    height: 110px;
-    width: 100%;
-    background-color: transparent;
-    left: 1.3rem;
+ 
+.grilla{
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(autofill);
+    grid-template-rows: 1fr 1fr;
 }
 
+.item_grid{
+
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
  
-  
- 
- 
+.item_grid2{
+
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
  
