@@ -15,7 +15,6 @@ body {
     display: flex;
     font-family: "Trade Winds", system-ui;
     font-size: 1.9rem;
-
     justify-content: center;
     font-style: italic;
     color: rgb(14, 129, 243);
@@ -58,6 +57,7 @@ header {
 }
 
 .nav {
+    display: flex;
     height: auto;
     margin-right: 3%;
 }
