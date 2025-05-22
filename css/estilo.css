@@ -83,11 +83,10 @@ nav ul {
 .grid-container {
     display: grid;
     gap: 30px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     width: 100%;
-    
-
+    grid-template-columns: repeat (auto-fit, minmax(200px, 1fr))
 
 }
 
